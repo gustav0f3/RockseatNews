@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "League+Spartan", sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+:root{
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--body-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    padding: 2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+    
+    flex-direction: column;
+}
+.Logo{
+    width: 35vw;
+    height: 150px;
+    margin-bottom: 4rem;
+    
+}
+
+.green{
+    margin-top: 20px;
+ 
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--title-color);
+}
+.white{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: var(--text-color);
+
+}
+.gray{  font-size: 14px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: var(--form-color);
+}
+.img{
+    
+    width: 50%;
+    height: 100%;
+    
+}
+.card{
+display: flex;
+align-items: flex-start;
+justify-content: left;
+flex-direction: column;
+width: 100vw;
+height: 50vw;
+
+
+}
+.textfield{
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--form-color);
+    
+    
+}
+.label{
+    
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        height: 40px;
+      margin-top: 4rem;
+}
+.textfield-button{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+    
+}
+.input{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    height: 20px;
+    
+}
+.input:focus {
+    background-color: var(--form-color);
+    border: var(--title-color);
+  }
+.img-button{
+    background-color: var(--bg-button-color);
+    border: 0;
+    height: 100%;
+}
+
+.button{
+    background-color: var(--body-bg-color);
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    border: 0;
+    color: var(--bg-button-color);
+    
+}
+
+
+
+
+
+
+
+
+.wallpaper{
+        width: 53vw;
+        height: 100vh;
+  background-size: cover;
+  background-position: center;
+ 
+    }
